@@ -14,3 +14,8 @@ const isNegative = (n) => {
 	// zero is neither positive nor negative
 	return null;
 }
+
+const betweenFiveAndTwenty = (n) => {
+	if (n >= 5 && n <= 20) return true;
+	return false;
+}
