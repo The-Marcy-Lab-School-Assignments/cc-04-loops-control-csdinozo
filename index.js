@@ -12,8 +12,7 @@ const countEveryOdd = val => {
 
 // p3
 const isNegative = n => {
-	if (n < 0) return true;
-	else return false; // assume false when n === 0 since zero is not negative
+	return n < 0; // assume false when n === 0 since zero is not negative
 }
 
 // p4
