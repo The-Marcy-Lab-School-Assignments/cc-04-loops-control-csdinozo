@@ -23,13 +23,17 @@ const betweenFiveAndTwenty = n => {
 const sumOfThreeOrFive = () => {
 	let sum = 0;
 
-	for (let i = 0; i <= 1000; i++) {
-		if (i % 3 == 0) {
-			if (i % 5 != 0) sum += i;
+	for (let i = 0; i < 1000; i++) {
+		if (i % 3 == 0 || i % 5 == 0) {
+			sum += i;
 		}
-		else if (i % 5 == 0) sum += i;
 	}
 
 	return sum;
+}
+
+const isAllLowerCase = s => {
+	for (let i = 0; i < str.length; i++) if (s[i].toUpperCase() === s[i].toUpperCase()) return false;
+	return true;
 }
 
