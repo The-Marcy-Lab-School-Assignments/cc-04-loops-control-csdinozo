@@ -17,8 +17,7 @@ const isNegative = n => {
 
 // p4
 const betweenFiveAndTwenty = n => {
-	if (n >= 5 && n <= 20) return true;
-	return false;
+	return n >= 5 && n <= 20;
 }
 
 // p5
