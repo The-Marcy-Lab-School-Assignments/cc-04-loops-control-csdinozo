@@ -42,8 +42,7 @@ const sumOfThreeOrFive = () => {
 
 // p6
 const isAllLowerCase = s => {
-	for (let i = 0; i < s.length; i++) if (s[i].toUpperCase() === s[i]) return false;
-	return true;
+	return str.toLowerCase() === str;
 }
 // console.log(isAllLowerCase('hEllo'));
 // console.log(isAllLowerCase('hello'));
